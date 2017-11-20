@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+android:fitsSystemWindows="true"
+    android:layout_height="match_parent">
+
+
+  <com.hl.foundation.library.widget.CTopBar
+        android:id="@+id/topbar"
+        style="@style/style_topbar"
+        app:mIsLeftShow="true"
+        app:mTitleText="列表加载界面" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.hl.foundation.library.widget.ireyclerview.IRecyclerView
+            android:id="@+id/irc"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            app:loadMoreEnabled="true"
+            app:refreshHeaderLayout="@layout/layout_irecyclerview_classic_refresh_header"
+            app:refreshEnabled="true"
+            />
+
+        <com.hl.foundation.library.widget.LoadingTip
+            android:id="@+id/loadedTip"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </FrameLayout>
+
+
+
+    <!--  <com.nesun.driver.lib.ireyclerview.IRecyclerView
+          android:id="@+id/irc"
+          android:layout_below="@+id/ntb"
+          android:layout_height="match_parent"
+          android:layout_width="match_parent"
+          app:loadMoreEnabled="true"
+          android:background="?attr/dayNightBackground"
+          app:dayNightBackgroundAttr="dayNightBackground"
+          app:refreshHeaderLayout="@layout/layout_irecyclerview_classic_refresh_header"
+          app:refreshEnabled="true"
+          />-->
+
+</LinearLayout>

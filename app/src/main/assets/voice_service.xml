@@ -1,0 +1,173 @@
+﻿<VoiceService>
+
+    <MainService>
+        <id>1</id>
+        <name>个人业务</name>
+        <number>1</number>
+        <voiceName>gryw.wav</voiceName>
+
+        <SecondService>
+
+            <id>11</id>
+            <name>活期</name>
+            <number>1</number>
+            <voiceName>hq.wav</voiceName>
+
+            <ThirdService>
+                <id>111</id>
+                <name>余额查询</name>
+                <number>1</number>
+                <voiceName>kh.wav</voiceName>
+            </ThirdService>
+
+
+        </SecondService>
+
+        <SecondService>
+
+            <id>12</id>
+            <name>定期</name>
+            <number>2</number>
+            <voiceName>ywzxjs.wav</voiceName>
+        </SecondService>
+
+        <SecondService>
+
+            <id>13</id>
+            <name>查询客户号</name>
+            <number>3</number>
+            <voiceName>ywzxjs.wav</voiceName>
+        </SecondService>
+
+        <SecondService>
+
+            <id>14</id>
+            <name>密码管理</name>
+            <number>4</number>
+            <voiceName>mmxg.wav</voiceName>
+
+            <ThirdService>
+                <id>141</id>
+                <name>修改密码</name>
+                <number>1</number>
+                <voiceName>kh.wav</voiceName>
+            </ThirdService>
+
+        </SecondService>
+
+    </MainService>
+
+
+    <MainService>
+        <id>2</id>
+        <name>公司业务</name>
+        <number>2</number>
+        <voiceName>ywzxjs.wav</voiceName>
+
+       <!-- <SecondService>
+
+            <id>21</id>
+            <name>手机充值1</name>
+            <number>21</number>
+            <voiceName>start_recevice_order.wav</voiceName>
+        </SecondService>-->
+
+
+    </MainService>
+
+    <MainService>
+        <id>3</id>
+        <name>基金买卖</name>
+        <number>3</number>
+        <voiceName>ywzxjs.wav</voiceName>
+
+      <!--  <SecondService>
+
+            <id>31</id>
+            <name>业务办理1</name>
+            <number>31</number>
+            <voiceName>start_recevice_order.wav</voiceName>
+        </SecondService>-->
+
+    </MainService>
+
+    <MainService>
+        <id>4</id>
+        <name>外汇买卖</name>
+        <number>4</number>
+        <voiceName>ywzxjs.wav</voiceName>
+
+      <!--  <SecondService>
+
+            <id>41</id>
+            <name>密码业务与停复机1</name>
+            <number>41</number>
+            <voiceName>start_recevice_order.wav</voiceName>
+        </SecondService>-->
+
+    </MainService>
+
+    <MainService>
+        <id>5</id>
+        <name>公共信息查询</name>
+        <number>5</number>
+        <voiceName>ggxxcx.wav</voiceName>
+
+       <SecondService>
+
+            <id>51</id>
+            <name>电话银行操作说明</name>
+            <number>1</number>
+            <voiceName>ywzxjs.wav</voiceName>
+        </SecondService>
+
+        <SecondService>
+
+            <id>52</id>
+            <name>利率查询</name>
+            <number>2</number>
+            <voiceName>ywzxjs.wav</voiceName>
+        </SecondService>
+
+        <SecondService>
+
+            <id>53</id>
+            <name>汇率查询</name>
+            <number>3</number>
+            <voiceName>ywzxjs.wav</voiceName>
+        </SecondService>
+
+        <SecondService>
+            <id>54</id>
+            <name>网点查询</name>
+            <number>4</number>
+            <voiceName>ywzxjs.wav</voiceName>
+        </SecondService>
+
+        <SecondService>
+
+            <id>55</id>
+            <name>银行卡消费中奖查询</name>
+            <number>5</number>
+            <voiceName>ywzxjs.wav</voiceName>
+        </SecondService>
+
+    </MainService>
+
+    <MainService>
+        <id>6</id>
+        <name>特色业务</name>
+        <number>6</number>
+        <voiceName>ywzxjs.wav</voiceName>
+
+       <!-- <SecondService>
+
+            <id>61</id>
+            <name>集团业务1</name>
+            <number>61</number>
+            <voiceName>start_recevice_order.wav</voiceName>
+        </SecondService>-->
+
+    </MainService>
+
+</VoiceService>

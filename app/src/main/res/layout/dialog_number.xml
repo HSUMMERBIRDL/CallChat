@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="15dp"
+    android:background="@drawable/bg_dialog"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_close"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/edt_phone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="12"
+                android:background="@color/transparent"
+                android:focusable="false"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="36sp" />
+
+            <ImageView
+                android:id="@+id/img_back_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:src="@drawable/ic_back_clear"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+
+            android:id="@+id/rv_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/txt_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_btn"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="#/确定"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <!--
+    <RelativeLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        >
+
+
+        <android.support.v7.widget.RecyclerView
+
+            android:id="@+id/rv_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+        <TextView
+            android:id="@+id/txt_ok"
+            android:layout_below="@id/rv_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="#/确定"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="@drawable/bg_btn"/>
+
+        <LinearLayout
+            android:layout_above="@id/rv_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <EditText
+                android:id="@+id/edt_phone"
+                android:textSize="36sp"
+                android:padding="10dp"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="12"
+                android:text=""/>
+
+            <ImageView
+                android:id="@+id/img_back_clear"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_back_clear"
+                android:visibility="gone"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>-->

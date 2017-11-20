@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="IRecyclerView">
+        <attr name="refreshHeaderLayout" format="reference" />
+        <attr name="loadMoreFooterLayout" format="reference" />
+        <attr name="refreshEnabled" format="boolean" />
+        <attr name="loadMoreEnabled" format="boolean" />
+        <attr name="refreshFinalMoveOffset" format="dimension" />
+    </declare-styleable>
+
+    <!-- TopBar相关 -->
+    <attr name="mTitleText" format="string" />
+    <attr name="mTitleTextColor" format="color" />
+    <attr name="mTitleTextSize" format="integer" />
+    <attr name="mLeftButtonDrawable" format="reference" />
+    <attr name="mIsLeftShow" format="boolean" />
+    <attr name="mLeftButtonIsShow" format="boolean" />
+    <attr name="mLeftMenuText" format="string" />
+    <attr name="mLeftMenuTextIsShow" format="boolean" />
+
+    <declare-styleable name="CTopBar">
+        <attr name="mTitleText" />
+        <attr name="mTitleTextColor" />
+        <attr name="mTitleTextSize" />
+        <attr name="mLeftButtonDrawable" />
+        <attr name="mIsLeftShow" />
+        <attr name="mLeftMenuText" />
+        <attr name="mLeftMenuTextIsShow" />
+        <attr name="mLeftButtonIsShow" />
+    </declare-styleable>
+
+</resources>

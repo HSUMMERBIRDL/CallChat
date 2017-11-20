@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+    <!--普通dialog-->
+    <style name="CustomProgressDialog" parent="@style/CustomDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- 标题栏 -->
+    <style name="style_topbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/topbar_height</item>
+        <item name="android:background">@color/colorTheme</item>
+        <item name="android:textStyle">bold</item>
+        <item name="mTitleTextSize">18</item>
+        <item name="mTitleTextColor">@color/white</item>
+        <item name="mLeftButtonDrawable">@drawable/ic_back</item>
+        <item name="mLeftMenuText">返回</item>
+        <item name="mLeftButtonIsShow">true</item>
+        <item name="mLeftMenuTextIsShow">true</item>
+    </style>
+    <style name="pictureDialog" parent="@android:style/Theme.Holo.Light.Dialog" >
+        <item name="@android:windowEnterAnimation">@anim/dialog_picture_enter</item>
+        <item name="@android:windowExitAnimation">@anim/dialog_picture_exit</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item> <!-- 是否浮动 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item> <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item> <!-- 背景变暗模糊 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item> <!-- 对话框无标题 -->
+    </style>
+
+    <!--基本的activity进入退出动画 从右边进来 往右边出去-->
+    <style name="baseAnimationActivity">
+
+        <item name="android:activityOpenEnterAnimation">@anim/base_slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/base_slide_remain</item>
+        <item name="android:activityCloseExitAnimation">@anim/base_slide_right_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/base_slide_remain</item>
+
+    </style>
+
+
+</resources>

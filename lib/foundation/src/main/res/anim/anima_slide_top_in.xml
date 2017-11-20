@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false">
+
+    <!--从上往下的弹簧效果-->
+    <translate android:duration="100"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:fromYDelta="-100%"
+        android:toYDelta="0"/>
+
+</set>
